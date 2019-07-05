@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3D424C22CFBF4600DC1264 /* String + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D424B22CFBF4600DC1264 /* String + Helper.swift */; };
 		3FC5D04E22BFD1C6008689C9 /* FolderInfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5D04C22BFD1C5008689C9 /* FolderInfoRepository.swift */; };
 		3FC5D04F22BFD1C6008689C9 /* FolderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5D04D22BFD1C5008689C9 /* FolderInfo.swift */; };
 		3FD4E68C2165158400A3CB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4E68B2165158400A3CB1E /* Assets.xcassets */; };
@@ -16,11 +17,11 @@
 		3FD4E69D216515C800A3CB1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4E69A216515C800A3CB1E /* ViewController.swift */; };
 		3FD4E69F216515E300A3CB1E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4E69E216515E300A3CB1E /* Config.swift */; };
 		3FD4E6A2216515F200A3CB1E /* HHFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4E6A0216515F100A3CB1E /* HHFileHelper.swift */; };
-		3FD4E6A3216515F200A3CB1E /* String + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4E6A1216515F100A3CB1E /* String + Helper.swift */; };
 		3FD4E6A521651F9000A3CB1E /* Changelog in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4E6A421651F9000A3CB1E /* Changelog */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3D424B22CFBF4600DC1264 /* String + Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Helper.swift"; sourceTree = "<group>"; };
 		3FC5D04C22BFD1C5008689C9 /* FolderInfoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderInfoRepository.swift; sourceTree = "<group>"; };
 		3FC5D04D22BFD1C5008689C9 /* FolderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderInfo.swift; sourceTree = "<group>"; };
 		3FD4E6842165158300A3CB1E /* CollectionComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +35,6 @@
 		3FD4E69A216515C800A3CB1E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FD4E69E216515E300A3CB1E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		3FD4E6A0216515F100A3CB1E /* HHFileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HHFileHelper.swift; path = ../../../HelperClasses/MacOS_HelperClasses/IO/HHFileHelper.swift; sourceTree = "<group>"; };
-		3FD4E6A1216515F100A3CB1E /* String + Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String + Helper.swift"; path = "../../../HelperClasses/MacOS_HelperClasses/Extentions/String + Helper.swift"; sourceTree = "<group>"; };
 		3FD4E6A421651F9000A3CB1E /* Changelog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,10 +69,10 @@
 		3FD4E6862165158300A3CB1E /* CollectionComposer */ = {
 			isa = PBXGroup;
 			children = (
+				3F3D424B22CFBF4600DC1264 /* String + Helper.swift */,
 				3FC5D04D22BFD1C5008689C9 /* FolderInfo.swift */,
 				3FC5D04C22BFD1C5008689C9 /* FolderInfoRepository.swift */,
 				3FD4E6A0216515F100A3CB1E /* HHFileHelper.swift */,
-				3FD4E6A1216515F100A3CB1E /* String + Helper.swift */,
 				3FD4E69E216515E300A3CB1E /* Config.swift */,
 				3FD4E698216515C700A3CB1E /* AppDelegate.swift */,
 				3FD4E699216515C700A3CB1E /* MainWindowController.swift */,
@@ -165,7 +165,7 @@
 			files = (
 				3FD4E69D216515C800A3CB1E /* ViewController.swift in Sources */,
 				3FD4E69F216515E300A3CB1E /* Config.swift in Sources */,
-				3FD4E6A3216515F200A3CB1E /* String + Helper.swift in Sources */,
+				3F3D424C22CFBF4600DC1264 /* String + Helper.swift in Sources */,
 				3FC5D04F22BFD1C6008689C9 /* FolderInfo.swift in Sources */,
 				3FC5D04E22BFD1C6008689C9 /* FolderInfoRepository.swift in Sources */,
 				3FD4E69C216515C800A3CB1E /* MainWindowController.swift in Sources */,
