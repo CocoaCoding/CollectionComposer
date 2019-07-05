@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0032CB41-436A-482F-BA2B-D61328846E33</key>
+		<key>46D89F85-2C50-49C7-A19C-57D4975421B2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0032CB41-436A-482F-BA2B-D61328846E33.xcactivitylog</string>
+			<string>46D89F85-2C50-49C7-A19C-57D4975421B2.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,237 +30,13 @@
 			<key>signature</key>
 			<string>Debug CollectionComposer</string>
 			<key>timeStartedRecording</key>
-			<real>583618203.35205603</real>
+			<real>583619078.17508304</real>
 			<key>timeStoppedRecording</key>
-			<real>583618233.65347898</real>
+			<real>583619114.61860204</real>
 			<key>title</key>
 			<string>Debug CollectionComposer</string>
 			<key>uniqueIdentifier</key>
-			<string>0032CB41-436A-482F-BA2B-D61328846E33</string>
-		</dict>
-		<key>09CA9C7B-7FF3-4482-8DA3-4223686A9195</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>09CA9C7B-7FF3-4482-8DA3-4223686A9195.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618827.71011996</real>
-			<key>timeStoppedRecording</key>
-			<real>583618858.14842606</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>09CA9C7B-7FF3-4482-8DA3-4223686A9195</string>
-		</dict>
-		<key>47EBD667-9B65-4804-B412-5F87F9386278</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>47EBD667-9B65-4804-B412-5F87F9386278.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618690.75935698</real>
-			<key>timeStoppedRecording</key>
-			<real>583618771.63466406</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>47EBD667-9B65-4804-B412-5F87F9386278</string>
-		</dict>
-		<key>48259E77-CD91-495C-A240-33FA7B23034C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>48259E77-CD91-495C-A240-33FA7B23034C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583619007.77129805</real>
-			<key>timeStoppedRecording</key>
-			<real>583619022.78945994</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>48259E77-CD91-495C-A240-33FA7B23034C</string>
-		</dict>
-		<key>55F8710E-A7EF-4151-8ADC-AC2F45900D70</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>55F8710E-A7EF-4151-8ADC-AC2F45900D70.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618888.17537403</real>
-			<key>timeStoppedRecording</key>
-			<real>583618911.63153398</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>55F8710E-A7EF-4151-8ADC-AC2F45900D70</string>
-		</dict>
-		<key>6ABD4AC4-3D93-4F3B-B3FB-735F20ED62B8</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6ABD4AC4-3D93-4F3B-B3FB-735F20ED62B8.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618638.22234404</real>
-			<key>timeStoppedRecording</key>
-			<real>583618672.45287204</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>6ABD4AC4-3D93-4F3B-B3FB-735F20ED62B8</string>
-		</dict>
-		<key>6DB99447-4B6E-492A-8254-00448E438805</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6DB99447-4B6E-492A-8254-00448E438805.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618994.97633398</real>
-			<key>timeStoppedRecording</key>
-			<real>583618999.33479595</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>6DB99447-4B6E-492A-8254-00448E438805</string>
-		</dict>
-		<key>F0C880F7-9E3F-4A88-B127-5C3763D78E12</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F0C880F7-9E3F-4A88-B127-5C3763D78E12.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CollectionComposer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CollectionComposer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug CollectionComposer</string>
-			<key>timeStartedRecording</key>
-			<real>583618598.53418505</real>
-			<key>timeStoppedRecording</key>
-			<real>583618636.31851006</real>
-			<key>title</key>
-			<string>Debug CollectionComposer</string>
-			<key>uniqueIdentifier</key>
-			<string>F0C880F7-9E3F-4A88-B127-5C3763D78E12</string>
+			<string>46D89F85-2C50-49C7-A19C-57D4975421B2</string>
 		</dict>
 	</dict>
 </dict>
