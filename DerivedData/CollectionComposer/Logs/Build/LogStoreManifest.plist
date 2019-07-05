@@ -5,6 +5,71 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>3463CF7F-CB33-4FD7-9348-D331D9BB4E55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3463CF7F-CB33-4FD7-9348-D331D9BB4E55.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CollectionComposer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CollectionComposer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CollectionComposer</string>
+			<key>timeStartedRecording</key>
+			<real>584040717.06760299</real>
+			<key>timeStoppedRecording</key>
+			<real>584040718.73587704</real>
+			<key>title</key>
+			<string>Build CollectionComposer</string>
+			<key>uniqueIdentifier</key>
+			<string>3463CF7F-CB33-4FD7-9348-D331D9BB4E55</string>
+		</dict>
+		<key>AF5999F1-AFDD-4D9C-AD28-B8706E32C09B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AF5999F1-AFDD-4D9C-AD28-B8706E32C09B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CollectionComposer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CollectionComposer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CollectionComposer</string>
+			<key>timeStartedRecording</key>
+			<real>584040284.08707702</real>
+			<key>timeStoppedRecording</key>
+			<real>584040284.13871896</real>
+			<key>title</key>
+			<string>Build CollectionComposer</string>
+			<key>uniqueIdentifier</key>
+			<string>AF5999F1-AFDD-4D9C-AD28-B8706E32C09B</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

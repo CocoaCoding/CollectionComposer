@@ -1,9 +1,7 @@
-//
 //  HHZStringHelper.swift
 //
 //  Created by Holger Hinzberg on 14.06.14.
 //  Copyright (c) 2014 Holger Hinzberg. All rights reserved.
-//
 
 import Foundation
 
