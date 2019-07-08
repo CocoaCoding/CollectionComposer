@@ -719,13 +719,13 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YhZ-59-gBW">
-                                <rect key="frame" x="14" y="275" width="52" height="32"/>
-                                <buttonCell key="cell" type="push" title="..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NGn-kd-PLX">
+                                <rect key="frame" x="14" y="275" width="111" height="32"/>
+                                <buttonCell key="cell" type="push" title="Add Source" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NGn-kd-PLX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="sourcePathButtonClicked:" target="XfG-lQ-9wD" id="41z-Fb-J8G"/>
+                                    <action selector="addSourceFolderButtonClicked:" target="XfG-lQ-9wD" id="41z-Fb-J8G"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Fo-ov-7K3">
@@ -756,7 +756,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="copyButtonClicked:" target="XfG-lQ-9wD" id="CCM-7f-O8t"/>
+                                    <action selector="copyFilesButtonClicked:" target="XfG-lQ-9wD" id="CCM-7f-O8t"/>
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aDq-ou-3Ia">
@@ -784,8 +784,8 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CWN-1c-zqH">
-                                <rect key="frame" x="18" y="136" width="254" height="17"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Contains Keyords (seperate with comma)" id="XZ1-Zw-CCz">
+                                <rect key="frame" x="18" y="136" width="264" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Contains Keywords (seperate with comma)" id="XZ1-Zw-CCz">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -879,13 +879,13 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JV5-ai-NyX">
-                                <rect key="frame" x="66" y="275" width="71" height="32"/>
-                                <buttonCell key="cell" type="push" title="Scan" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="koj-Wx-Sw4">
+                                <rect key="frame" x="125" y="275" width="108" height="32"/>
+                                <buttonCell key="cell" type="push" title="Count Files" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="koj-Wx-Sw4">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="scanButtonClicked:" target="XfG-lQ-9wD" id="ZF3-OF-IQ5"/>
+                                    <action selector="scanFolderContentButtonClicked:" target="XfG-lQ-9wD" id="ZF3-OF-IQ5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -943,6 +943,12 @@
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="deleteMenuItemClicked:" target="XfG-lQ-9wD" id="9w3-CR-3EV"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="Add Source Folder" id="dSo-aT-N9x">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="addSourceMenuItemClicked:" target="XfG-lQ-9wD" id="CWV-Rm-JZt"/>
                             </connections>
                         </menuItem>
                     </items>

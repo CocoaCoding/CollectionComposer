@@ -30,7 +30,10 @@ public class FolderInfoRepository: NSObject
 
     public func removeItemAt(index : Int)
     {
-        self.folderInfos.remove(at: index)
+        if index >= 0 && index < folderInfos.count
+        {
+            self.folderInfos.remove(at: index)
+        }
     }
     
     public func Load()
@@ -42,6 +45,7 @@ public class FolderInfoRepository: NSObject
         {
             self.folderInfos.append(info)
         }
+        print("Repository loaded")
     }
     
     public func Save()
@@ -49,11 +53,11 @@ public class FolderInfoRepository: NSObject
         let success = NSKeyedArchiver.archiveRootObject(self.folderInfos, toFile: self.filename)
         if success == true
         {
-            print("gespeichert")
+            print("Repository saved")
         }
         else
         {
-            print("nicht gespeichert")
+            print("Repository not saved")
         }
     }
     

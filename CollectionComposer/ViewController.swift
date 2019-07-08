@@ -40,7 +40,6 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         {
             self.deleteFilesCheckbox.state = .off
         }
-        
         //getNumberOfImagefilesFromSourcePathAsync()
     }
     
@@ -48,9 +47,27 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         didSet {
         }
     }
+    
     // MARK: - Button Actions
     
-    @IBAction func sourcePathButtonClicked(_ sender: Any)
+    @IBAction func addSourceFolderButtonClicked(_ sender: Any)
+    {
+        self.addSourceFolder()
+    }
+    
+    @IBAction func scanFolderContentButtonClicked(_ sender: Any)
+    {
+            self.scanFolderContent()
+    }
+
+    @IBAction func copyFilesButtonClicked(_ sender: NSButton)
+    {
+        self.copyFiles()
+    }
+    
+    // MARK: - Button Actions Business Logic
+    
+    func addSourceFolder()
     {
         if let folderUrl = self.openFileDialog()
         {
@@ -64,15 +81,10 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
                 self.folderInfoRepository.Save()
                 self.ReloadFoldersTableView()
             }
-            // self.sourcePathTextfield.stringValue = url.path
-            // Config.sourcePath = url.path
-            
-            // self.UpdateConfigValuesAndSave()
-            // self.getNumberOfImagefilesFromSourcePathAsync()
         }
     }
     
-    @IBAction func scanButtonClicked(_ sender: Any)
+    func scanFolderContent()
     {
         let filesHelper = HHFileHelper()
         let count = self.folderInfoRepository.GetCount()
@@ -84,8 +96,8 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         }
         self.ReloadFoldersTableView()
     }
-
-    @IBAction func copyButtonClicked(_ sender: NSButton)
+    
+    func copyFiles()
     {
         self.UpdateConfigValuesAndSave()
         self.copyButton.isEnabled = false
@@ -153,12 +165,33 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     
     // MARK: - Menu Actions
     
+    func IndexesToProcessForContextMenu(tableView:NSTableView) -> IndexSet
+    {
+        var selectedIndexes:IndexSet = tableView.selectedRowIndexes
+        let clickedRow = tableView.clickedRow
+        
+        if clickedRow != -1 && selectedIndexes.contains(clickedRow) == false
+        {
+            selectedIndexes = IndexSet(integer: clickedRow)
+        }
+        return selectedIndexes
+    }
+    
     @IBAction func deleteMenuItemClicked(_ sender: Any)
     {
-        let index = self.folderInfoTableView.selectedRow
-        self.folderInfoRepository.removeItemAt(index: index)
+        let selectedIndexes = self.IndexesToProcessForContextMenu(tableView: folderInfoTableView)
+        for index in selectedIndexes
+        {
+            self.folderInfoRepository.removeItemAt(index: index)
+        }
+        
         self.ReloadFoldersTableView()
         self.folderInfoRepository.Save()
+    }
+
+    @IBAction func addSourceMenuItemClicked(_ sender: Any)
+    {
+        self.addSourceFolder()
     }
     
     func LoadConfigAndUpdateView()
@@ -232,8 +265,6 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         fileDialog.runModal()
         return fileDialog.url
     }
-    
-
     
     private func getRandomFileUrls(_ fileURLs:[URL], count:Int, containingKeywords:[String]) -> [URL]
     {
